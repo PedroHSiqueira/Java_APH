@@ -2,13 +2,13 @@ package com.mycompany.classes;
 
 public class Caneta {
 
-    public String modelo;
-    public String cor;
-    private float ponta;
-    protected int carga;
-    protected boolean tampada;
+    String modelo;
+    String cor;
+    float ponta;
+    int carga;
+    boolean tampada;
     
-    public void status(){
+    void status(){
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Uma caneta " + this.cor);
         System.out.println("Está tampada?: " +  this.tampada);
@@ -16,7 +16,7 @@ public class Caneta {
         System.out.println("Carga: " + this.carga + "%");
     }
 
-    public void rabiscar() {
+    void rabiscar() {
         if (this.tampada) {
             System.out.println("Erro");
         } else {
@@ -24,11 +24,11 @@ public class Caneta {
         }
     }
 
-    protected void tampar() {
+    void tampar() {
         this.tampada = true;
     }
     
-    protected void destampar(){
+    void destampar(){
         this.tampada = false;
     }
 }
