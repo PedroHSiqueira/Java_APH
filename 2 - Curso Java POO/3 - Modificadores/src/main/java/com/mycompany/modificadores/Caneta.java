@@ -14,8 +14,8 @@ public class Caneta {
         this.cor = cor;
         this.tampada = tampada;
     }
-    
-    
+
+
     public String getModelo(){
         return modelo;
     }

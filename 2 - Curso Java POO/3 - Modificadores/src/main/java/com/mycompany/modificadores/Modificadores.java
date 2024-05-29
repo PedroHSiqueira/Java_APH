@@ -3,7 +3,7 @@ package com.mycompany.modificadores;
 public class Modificadores {
 
     public static void main(String[] args) {
-        Caneta c1 = new Caneta("Bic", "Amarela", 0.7f);
+        Caneta c1 = new Caneta("Bic", 0.7f, "Amarela", true);
 
 //        c1.setModelo("Bic");
 //        // c1.modelo = "Bic"; ERROR
