@@ -17,7 +17,7 @@ public class Lutador implements Combate {
         this.nacionalidade = nacionalidade;
         this.idade = idade;
         this.altura = altura;
-        this.peso = peso;
+        this.setPeso(peso);
         this.vitorias = vitorias;
         this.derrotas = derrotas;
         this.empate = empate;
@@ -95,7 +95,7 @@ public class Lutador implements Combate {
         return peso;
     }
 
-    public void setPeso(float peso) {
+    private void setPeso(float peso) {
         this.peso = peso;
         this.setCategoria();
     }
