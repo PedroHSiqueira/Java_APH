@@ -8,6 +8,11 @@ package com.mycompany.heranca;
  *
  * @author T-Gamer
  */
-public class Funcionario extends Pessoa{
-    
+public class Tecnico {
+
+    private String regsistroProfissional;
+
+    public void praticar() {
+    }
+;
 }
