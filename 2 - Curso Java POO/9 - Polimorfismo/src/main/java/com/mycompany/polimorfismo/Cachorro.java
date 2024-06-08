@@ -10,4 +10,20 @@ package com.mycompany.polimorfismo;
  */
 public class Cachorro extends Mamifero{
     
+    //Polimorfismo de sobrecarga
+    public void reagir(String frase){
+        if(frase.equals("Olá")){
+            System.out.println("Abanar o rabo");
+        }else{
+            System.out.println("Latir");
+        }
+    };
+    
+    public void reagir(int hora){
+        if(hora > 12){
+            System.out.println("Au au!");
+        }else{
+            System.out.println("Latindo");
+        }
+    };
 }
